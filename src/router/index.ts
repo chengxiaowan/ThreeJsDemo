@@ -4,8 +4,8 @@ import Home from '../views/Home.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'threejs',
+    component: ()=> import('../views/threeJs.vue')
   },
   {
     path: '/about',
