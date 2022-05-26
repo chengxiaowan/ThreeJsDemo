@@ -161,7 +161,7 @@ const render = () => {
  * @param{any}loader:模型加载器实例
  */
 const loadCheckPoint = (loader) => {
-  let path = "/model/liyanga_tianmuhu/liyanga_tianmuhu.gltf";
+  let path = "/GLFT/LiYangTianMuHuA/LiYangTianMuHuA.gltf";
   // let path = "/model/liyangatianmuhuani/liyangatianmuhuani.gltf"
   //加载本地模型
   loader.load(
